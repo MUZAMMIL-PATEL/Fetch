@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Github User Datails Fetch App</title>
+    <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+    
+<div style="text-align: center;" class="main">
+    <input placeholder="Write Github UserName Here !!" type="text" id="search">
+    <button class="done" onclick="userData()">Details</button>
+</div>
+<div class="card">
+   <div id="" class="card-header">
+       <img src="./R.png" id="picture" alt="">
+    </div>
+
+    <div class="card-body">
+        <h2 class="name" id="username">It's Jacob</h2>
+        <div class="bio" id="description">""Escape Reality & Play Games""</div>
+    </div>
+    <div class="card-footer">
+        <div class="stats">
+            <div class="stat">
+              <span class="label">Following</span>
+              <span class="value" id="following">500</span>
+            </div>
+            <div class="stat">
+              <span class="label">Followers</span>
+              <span class="value" id="follow">56K</span>
+            </div>
+            <div class="stat">
+              <span class="label">Repositories</span>
+              <span class="value" id="Repositories">90</span>
+            </div>
+        </div>
+    </div>
+</div>
+
+</body>
+<script src="./index.js"></script>
+</html>

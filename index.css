@@ -1,0 +1,136 @@
+body{
+  font-family: sans-serif;
+  background-image: linear-gradient(to left , skyblue , rgb(254, 250, 21) , skyblue );
+  font-size:14px;
+  font-family: sans-serif;
+  color: black;
+}
+input{
+  height: 25px;
+  border: 3px inset;
+  font-size: 20px;
+  padding-left: 20px;
+  width: 70%;
+  margin-top: 30px;
+
+}
+  .done{
+    position: relative;
+    height: 35px;
+  }
+}
+button{
+  border: none;
+  padding: 7px;
+  position: relative;
+  bottom: 2px;
+  border: outset 2px;
+}
+img{
+    position: relative;
+    top: 10px;
+    margin: auto;
+    width: 60%;
+    height: 190px;
+    display: flex;
+    justify-content: center;
+    border-radius: 50%;
+}
+
+.card{
+  position: relative;
+  width: 315px;
+  height: 420px;
+  margin:30px auto;
+  border: 5px outset;
+  border-radius: 50px;
+  background-color: skyblue;
+  opacity: 1;
+}
+.card-header{
+  position: relative;
+  height: 220px;
+}
+.card-header-bar{
+  position: absolute;
+  top:0;
+  width: 100%;
+  z-index: 1;
+  width: 100%;
+}
+
+.sr-only{
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  clip: rect(0,0,0,0);
+  border: none;
+  overflow: hidden;
+}
+
+.card-body{
+  text-align:center;
+  padding-left: 10px;
+}
+
+.name{
+  font-size: 20px;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin: 0 auto;
+}
+
+.job-title{
+  font-size: 14px;
+  font-weight: 300;
+  margin-top: 5px;
+  color: #919191;
+}
+
+.bio{
+  font-size: 14px;
+  color: #7B7B7B;
+  font-weight: 300;
+  margin: 10px auto;
+  line-height: 20px;
+}
+
+.social-accounts img{
+  width: 15px;
+}
+
+.social-accounts a{
+  margin-left: 10px;
+}
+.social-accounts a:first-child{
+  margin-left: 0;
+}
+
+.card-footer{
+  position: absolute;
+  left: 0;
+  width: 100%;
+  bottom: 20px;
+}
+.stat{
+  box-sizing: border-box;
+  width: calc(100% / 3);
+  float: left;
+  text-align: center;
+  border-left: 1px solid #EBEBEB;
+}
+.stat .label{
+  display: block;
+  text-transform: uppercase;
+  font-weight: 300;
+  font-size: 11px;
+  letter-spacing: 1px;
+  color: #95989A;
+}
+
+.stat .value{
+  display: block;
+  font-weight: 700;
+  font-size:20px;
+  margin-top: 5px;
+}
